@@ -1,0 +1,15 @@
+.HomeContent {
+    display: flex;
+    flex-direction: column;
+    padding-left: 80px;
+    max-width: 1200px;
+    margin: 90px auto;
+}
+
+.HomeH1 {
+    margin-bottom: -20px;
+}
+
+.HomeH2 {
+    margin-bottom: 120px;
+}

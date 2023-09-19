@@ -5,9 +5,89 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  background-color: black;
+  /* background-image: url("assets/background'bckgroundblack.png"); */
+  background-image: url("assets/background/bgHero.png");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
 }
 
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
+}
+
+@font-face {
+  font-family: 'Couture';
+  src: url('./assets/fonts/couture-bld.otf') format('opentype');
+}
+
+@font-face {
+  font-family: 'Futura';
+  src: url('./assets/fonts/Futura\ Medium\ Italic\ font.ttf') format('truetype');
+}
+
+@font-face {
+  font-family: 'FuturaLight';
+  src: url('./assets/fonts/Futura\ Light\ Italic\ font.ttf') format('truetype');
+}
+
+@font-face {
+  font-family: 'Nasalization';
+  src: url('./assets/fonts/nasalization-rg.otf') format('opentype');
+}
+
+h1 {
+  font-family: 'Couture';
+  font-size: 90px;
+  color: white;
+}
+
+h2 {
+  font-family: 'Futura';
+  font-size: 30px;
+  color: #a1a1a1;
+}
+
+header nav {
+  display: flex;
+  padding-top: 15px;
+  padding-right: 10px;
+  gap: 16px;
+  justify-content: end;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.homeImg {
+  margin-left: 45px;
+  margin-right: auto;
+}
+
+.miniLogo {
+  width: 80px;
+  transition: width 0.3s ease;
+}
+
+.miniLogo:hover {
+  width: 85px;
+}
+
+header nav a {
+  font-size: 18px;
+  text-decoration: none;
+  color: white;
+  font-family: 'Nasalization';
+  padding: 6px;
+  border-radius: 4px;
+  transition: font-size 0.3s ease;
+}
+
+header nav a:hover {
+    font-size: 20px;
+}
+
+header nav a.active {
+  color: #09abfd;
 }
