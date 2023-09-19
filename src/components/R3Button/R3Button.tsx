@@ -1,15 +1,20 @@
-import { useState } from 'react';
+import React, { useState } from 'react';
 import styles from './R3Button.module.css';
 
-function R3Button({ textButton }: { textButton: string}) {
+function R3Button({ textButton, onMouseUpCallback }: { textButton: string; onMouseUpCallback?: () => void }) {
     const [isClicked, setIsClicked] = useState(false);
     const btnText = textButton;
 
     const handleMouseDown = () => {
         setIsClicked(true);
     }
+
     const handleMouseUp = () => {
         setIsClicked(false);
+        // Call the custom onMouseUpCallback if provided
+        if (onMouseUpCallback) {
+            onMouseUpCallback();
+        }
     }
 
     return (
@@ -18,7 +23,8 @@ function R3Button({ textButton }: { textButton: string}) {
                 className={`${styles.r3btn} ${isClicked ? styles.mousedown : ''}`}
                 onMouseDown={handleMouseDown}
                 onMouseUp={handleMouseUp}
-            >{btnText}
+            >
+                {btnText}
             </button>
         </div>
     );

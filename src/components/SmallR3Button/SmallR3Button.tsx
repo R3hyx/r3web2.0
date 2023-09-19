@@ -1,15 +1,17 @@
 import { useState } from 'react';
 import styles from './SmallR3Button.module.css';
 
-function SmallR3Button({ lang }: { lang: string }) {
+function SmallR3Button() {
     const [isClicked, setIsClicked] = useState(false);
-    const btnText = lang;
+    const [btnText, setBtnText] = useState('en');
 
     const handleMouseDown = () => {
         setIsClicked(true);
     }
     const handleMouseUp = () => {
         setIsClicked(false);
+        setBtnText((prevText) => (prevText === 'cz' ? 'en' : 'cz'));
+
     }
 
     return (
