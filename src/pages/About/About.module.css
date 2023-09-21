@@ -1,0 +1,34 @@
+.AboutContent{
+    display: flex;
+    flex-direction: column;
+    padding-left: 80px;
+    max-width: 1200px;
+    margin: 0px auto;
+}
+
+.valuesContainer{
+    width: '100%';
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 200px;
+}
+
+.ourValues {
+    text-align: center;
+}
+
+.textContainer {
+    width: '100%';
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 50px;
+}
+
+.text2Container {
+    width: '100%';
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}

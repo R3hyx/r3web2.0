@@ -16,7 +16,7 @@ const useOnScrollAnimation = () => {
               type: 'spring',
               duration: 1, 
               delay: 0.3,
-              bounce: 0.4 
+              bounce: 0.3 
             }
         })
         }

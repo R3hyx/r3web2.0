@@ -33,15 +33,3 @@ const useOnScrollAppear = () => {
 }
 
 export default useOnScrollAppear;
-
-
-// const { ref:ref3, animation:animation3 } = useOnScrollAppear()
-
-// <div ref={ref3} className="">
-
-// <motion.div
-//   animate={animation3}
-// >
-//    <R3Button textButton={textButton}/>
-// </motion.div>
-// </div>

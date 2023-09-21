@@ -3,21 +3,25 @@
     color:rgb(255, 255, 255);
     font-size: 20px;
     font-family: nasalization;
-    padding: 15px 60px 15px 60px;
+    /* padding: 15px 60px 15px 60px; */
+    margin: 15px;
+    width: 250px;
+    height: 60px;
     border-radius: 15px;
     border: 2px solid #09abfd;
     box-shadow: 0 0 18px 18px rgba(9, 171, 253, 0.4);
-    transition: border 0.2s linear, background-color 0.2s linear, color 0.3s linear, font-size 0.4s linear, padding 0.1s linear;
+    transition: border 0.2s linear, background-color 0.2s linear, color 0.3s linear, font-size 0.4s linear, width 0.1s linear, height 0.1s linear;
 }
 
 .r3btn:hover {
-    font-size: 25px;
+    font-size: 23px;
     border: 3px solid #09abfd;
 }
   
 .mousedown {
     background-color: rgba(0, 0, 0, 0.2);
     color: rgb(255, 255, 255);
-    padding: 10px 45px 10px 45px;
+    width: 210px;
+    height: 55px;
 }
   

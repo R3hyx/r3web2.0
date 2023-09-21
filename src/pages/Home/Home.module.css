@@ -1,9 +1,15 @@
+.homeBody {
+    background-image: url("../../assets/background/bgHero.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
 .HomeContent {
     display: flex;
     flex-direction: column;
     padding-left: 80px;
     max-width: 1200px;
-    margin: 90px auto;
+    margin: 0px auto;
 }
 
 .HomeH1 {

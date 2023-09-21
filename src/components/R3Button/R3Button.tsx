@@ -1,5 +1,5 @@
-import React, { useState } from 'react';
 import styles from './R3Button.module.css';
+import { useState } from 'react';
 
 function R3Button({ textButton, onMouseUpCallback }: { textButton: string; onMouseUpCallback?: () => void }) {
     const [isClicked, setIsClicked] = useState(false);
