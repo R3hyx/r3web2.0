@@ -39,6 +39,16 @@ function About() {
                             </motion.div>
                         </div>
 
+                        <div ref={r2}>
+                            <motion.div className={styles.text2Container}
+                            animate={a2}>
+                            
+                                <TextContainer h3Text={h3Mission} pText={pMission}/>
+                            </motion.div>
+                        </div>
+                    </div>
+                    
+
                         <div className={styles.valuesContainer}>
 
                         <div className={styles.ourValues} ref={r3}>
@@ -62,16 +72,6 @@ function About() {
                         <div ref={r6}>
                             <motion.div animate={a6}>
                                 <R3Button textButton='Innovation' onMouseUpCallback={()=> console.log('Innovation')}/>
-                            </motion.div>
-                        </div>
-
-                    </div>
-
-                        <div ref={r2}>
-                            <motion.div className={styles.text2Container}
-                            animate={a2}>
-                            
-                                <TextContainer h3Text={h3Mission} pText={pMission}/>
                             </motion.div>
                         </div>
                     </div>
