@@ -6,7 +6,6 @@ body {
   background-image: url("./assets/background/bckgroundblack.png");
   background-size: auto;
   background-repeat: repeat;
-
 }
 
 @font-face {
@@ -53,7 +52,7 @@ p {
   color: #a1a1a1;
 }
 
-header nav {
+.def-nav {
   display: flex;
   padding-top: 15px;
   padding-right: 10px;
@@ -62,24 +61,21 @@ header nav {
   justify-content: flex-end;
   max-width: 1200px;
   margin: 0 auto;
-  /* background-image: url("./assets/background/earth.svg");
+  background-image: url("./assets/background/earth.svg");
   height: 200px;
-  border-radius: 20px;
-  box-shadow: 0 20px 40px 20px #3c709e; */
+  border-radius: 10px;
+  box-shadow: 0 20px 40px 20px #3c709e;
 }
 
-.homeImg {
-  margin-left: 45px;
-  margin-right: auto;
-}
-
-.miniLogo {
-  width: 80px;
-  transition: width 0.3s ease;
-}
-
-.miniLogo:hover {
-  width: 85px;
+.home-nav {
+  display: flex;
+  padding-top: 15px;
+  padding-right: 10px;
+  height: 200px;
+  gap: 16px;
+  justify-content: flex-end;
+  max-width: 1200px;
+  margin: 0 auto;
 }
 
 header nav a {
@@ -98,4 +94,18 @@ header nav a:hover {
 
 header nav a.active {
   color: #09abfd;
+}
+
+.homeImg {
+  margin-left: 45px;
+  margin-right: auto;
+}
+
+.miniLogo {
+  width: 80px;
+  transition: width 0.3s ease;
+}
+
+.miniLogo:hover {
+  width: 85px;
 }

@@ -1,10 +1,14 @@
-import React from 'react';
+import NavBar from '../../components/NavBar';
+import styles from './Contact.module.css';
 
 function Contact() {
     return (
-        <div className='App'>
-            Contact
-        </div>
+        <>
+            <NavBar/>
+            <div className={styles.ContactContent}>
+                <h1>Contact informaion</h1>
+            </div>
+        </>
     );
 }
 

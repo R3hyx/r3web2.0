@@ -1,0 +1,18 @@
+.teamContent {
+    text-align: center;
+}
+
+.imageDiv {
+    display: flex;
+    align-items: center;
+    width: 800px;
+}
+
+.image {
+    max-width: 300px;
+    margin-bottom: 30px;
+}
+.image2 {
+    max-width: 200px;
+    margin-bottom: 30px;
+}
