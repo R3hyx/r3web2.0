@@ -1,0 +1,9 @@
+.lightStick {
+    height: 15px;
+    width: 150px;
+    background-color: white;
+    border-radius: 40px;
+    border: 2px solid #09abfd;
+    box-shadow: 0 0 18px 18px rgba(9, 171, 253, 0.4);
+    margin: 30px;
+}

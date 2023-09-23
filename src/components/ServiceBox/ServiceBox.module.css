@@ -1,0 +1,25 @@
+.servContent {
+    max-width: 1200px;
+}
+
+.servBox {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 90vw;
+    max-width: 1200px;
+}
+
+.servText {
+    text-align:left;
+    margin-left: 30px;
+    line-height: 35px;
+}
+
+.servTextH {
+    margin-bottom: -20px;
+}
+
+.servStick {}
+
+.servLine {}
