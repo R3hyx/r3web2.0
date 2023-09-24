@@ -11,5 +11,29 @@
 .h1Div {
     padding-left: 100px;
     max-width: 1200px;
-    margin: 0 auto;
+    margin: 150px 30px 300px 20px;
 }
+
+@media screen and (max-width: 890px) {
+    .h1Div {
+        width: 500px;
+        margin: 150px 30px 300px 20px;
+
+    }
+  }
+
+  @media screen and (max-width: 500px) {
+    .h1Div {
+        width: 300px;
+        margin: 150px 30px 250px -20px;
+
+    }
+  }
+
+  @media screen and (max-width: 380px) {
+    .h1Div {
+        width: 200px;
+        margin: 150px 30px 250px -20px;
+
+    }
+  }

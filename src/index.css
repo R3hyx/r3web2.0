@@ -30,7 +30,7 @@ body {
 
 h1 {
   font-family: 'Couture';
-  font-size: 90px;
+  font-size: 80px;
   color: white;
 }
 
@@ -56,6 +56,30 @@ p {
   font-family: 'Futura';
   font-size: 20px;
   color: #a1a1a1;
+}
+
+@media screen and (max-width: 890px) {
+  h1 {
+    font-size: 30px;
+  }
+}
+
+@media screen and (max-width: 890px) {
+  h2 {
+    font-size: 15px;
+  }
+}
+
+@media screen and (max-width: 890px) {
+  h3 {
+    font-size: 15px;
+  }
+}
+
+@media screen and (max-width: 890px) {
+  h4 {
+    font-size: 15px;
+  }
 }
 
 .def-nav {
@@ -98,6 +122,24 @@ header nav a:hover {
     font-size: 20px;
 }
 
+@media screen and (max-width: 890px) {
+  .def-nav {
+    gap: 0px;
+  }
+}
+
+@media screen and (max-width: 890px) {
+  .home-nav {
+    gap: 0px;
+  }
+}
+
+@media screen and (max-width: 890px) {
+  header nav a {
+    font-size: 15px;
+  }
+}
+
 header nav a.active {
   color: #09abfd;
 }
@@ -114,4 +156,22 @@ header nav a.active {
 
 .miniLogo:hover {
   width: 85px;
+}
+
+@media screen and (max-width: 890px) {
+  .miniLogo {
+    width: 60px;
+  }
+}
+
+@media screen and (max-width: 890px) {
+  .miniLogo:hover {
+    width: 65px;
+  }
+}
+
+@media screen and (max-width: 890px) {
+  .homeImg {
+    margin-left: 10px;
+  }
 }

@@ -1,4 +1,3 @@
-import LightStick from "../../components/LightStick/LightStick";
 import NavBar from "../../components/NavBar";
 import ServiceBox from "../../components/ServiceBox/ServiceBox";
 import styles from './Services.module.css';

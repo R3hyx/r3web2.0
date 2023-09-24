@@ -7,3 +7,11 @@
     box-shadow: 0 0 18px 18px rgba(9, 171, 253, 0.4);
     margin: 30px;
 }
+
+@media screen and (max-width: 890px) {
+    .lightStick {
+        height: 10px;
+        width: 100px;
+        box-shadow: 0 0 18px 13px rgba(9, 171, 253, 0.4);
+    }
+  }
