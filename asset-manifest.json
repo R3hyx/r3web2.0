@@ -1,29 +1,29 @@
 {
   "files": {
-    "main.css": "/r3web2.0/static/css/main.9878703b.css",
-    "main.js": "/r3web2.0/static/js/main.90ae014a.js",
-    "static/js/787.edf71ffb.chunk.js": "/r3web2.0/static/js/787.edf71ffb.chunk.js",
-    "static/media/earth.svg": "/r3web2.0/static/media/earth.856fc1826030762cad54.svg",
-    "static/media/bgHero.png": "/r3web2.0/static/media/bgHero.2d281e880be71d02529b.png",
-    "static/media/rehak.png": "/r3web2.0/static/media/rehak.31fdeb3d2910b1fa5c8b.png",
-    "static/media/bui.png": "/r3web2.0/static/media/bui.5848b5997b02bf5509eb.png",
-    "static/media/neub.png": "/r3web2.0/static/media/neub.07d387228a4acae18cf0.png",
-    "static/media/kope.png": "/r3web2.0/static/media/kope.cf7daaee4b3a0bc2fc63.png",
-    "static/media/rCon.png": "/r3web2.0/static/media/rCon.56715b290f900cc54cc0.png",
-    "static/media/nCon.png": "/r3web2.0/static/media/nCon.dd6076283b05fd7c02db.png",
-    "static/media/nasalization-rg.otf": "/r3web2.0/static/media/nasalization-rg.4cbf2019f1f7337b2594.otf",
-    "static/media/Futura Medium Italic font.ttf": "/r3web2.0/static/media/Futura Medium Italic font.6180d54a312d36bd0924.ttf",
-    "static/media/WhiteR3.png": "/r3web2.0/static/media/WhiteR3.1a559a8f2dfaf16ec79d.png",
-    "static/media/Futura Light Italic font.ttf": "/r3web2.0/static/media/Futura Light Italic font.7a38f125834cd8b1f80c.ttf",
-    "static/media/bckgroundblack.png": "/r3web2.0/static/media/bckgroundblack.a1fd13ff7730f65802e6.png",
-    "static/media/couture-bld.otf": "/r3web2.0/static/media/couture-bld.b144f2b32e00d7ec80e6.otf",
-    "index.html": "/r3web2.0/index.html",
-    "main.9878703b.css.map": "/r3web2.0/static/css/main.9878703b.css.map",
-    "main.90ae014a.js.map": "/r3web2.0/static/js/main.90ae014a.js.map",
-    "787.edf71ffb.chunk.js.map": "/r3web2.0/static/js/787.edf71ffb.chunk.js.map"
+    "main.css": "/static/css/main.c500d473.css",
+    "main.js": "/static/js/main.bdd518b8.js",
+    "static/js/787.edf71ffb.chunk.js": "/static/js/787.edf71ffb.chunk.js",
+    "static/media/earth.svg": "/static/media/earth.856fc1826030762cad54.svg",
+    "static/media/bgHero.png": "/static/media/bgHero.2d281e880be71d02529b.png",
+    "static/media/rehak.png": "/static/media/rehak.31fdeb3d2910b1fa5c8b.png",
+    "static/media/bui.png": "/static/media/bui.5848b5997b02bf5509eb.png",
+    "static/media/neub.png": "/static/media/neub.07d387228a4acae18cf0.png",
+    "static/media/kope.png": "/static/media/kope.cf7daaee4b3a0bc2fc63.png",
+    "static/media/rCon.png": "/static/media/rCon.56715b290f900cc54cc0.png",
+    "static/media/nCon.png": "/static/media/nCon.dd6076283b05fd7c02db.png",
+    "static/media/nasalization-rg.otf": "/static/media/nasalization-rg.4cbf2019f1f7337b2594.otf",
+    "static/media/Futura Medium Italic font.ttf": "/static/media/Futura Medium Italic font.6180d54a312d36bd0924.ttf",
+    "static/media/WhiteR3.png": "/static/media/WhiteR3.1a559a8f2dfaf16ec79d.png",
+    "static/media/Futura Light Italic font.ttf": "/static/media/Futura Light Italic font.7a38f125834cd8b1f80c.ttf",
+    "static/media/bckgroundblack.png": "/static/media/bckgroundblack.a1fd13ff7730f65802e6.png",
+    "static/media/couture-bld.otf": "/static/media/couture-bld.b144f2b32e00d7ec80e6.otf",
+    "index.html": "/index.html",
+    "main.c500d473.css.map": "/static/css/main.c500d473.css.map",
+    "main.bdd518b8.js.map": "/static/js/main.bdd518b8.js.map",
+    "787.edf71ffb.chunk.js.map": "/static/js/787.edf71ffb.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.9878703b.css",
-    "static/js/main.90ae014a.js"
+    "static/css/main.c500d473.css",
+    "static/js/main.bdd518b8.js"
   ]
 }
