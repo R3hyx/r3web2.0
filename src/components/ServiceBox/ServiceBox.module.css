@@ -20,6 +20,14 @@
     margin-bottom: -20px;
 }
 
+p {
+    margin: 5px;
+}
+
+h3 {
+    margin: 10px 5px;
+}
+
 .servStick {}
 
 .servLine {}
