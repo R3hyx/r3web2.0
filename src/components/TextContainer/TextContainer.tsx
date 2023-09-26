@@ -7,7 +7,6 @@ function TextContainer( {h3Text, pText}: { h3Text: string; pText: string } ) {
 
     return (
         <div className={styles.container}>
-            <div className={styles.vertLine}></div>
             <div className={styles.text}>
                 <div className={styles.head}>
                     <h3>{h3t}</h3>

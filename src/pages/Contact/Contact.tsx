@@ -8,7 +8,9 @@ function Contact() {
         <>
             <NavBar/>
             <div className={styles.ContactContent}>
+                <div className={styles.hContact}>
                 <h1>Contact informaion</h1>
+                </div>
 
                 <div className={styles.infos}>
                     <Social/>

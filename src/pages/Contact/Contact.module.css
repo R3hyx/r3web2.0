@@ -14,3 +14,23 @@
     gap: 100px;
     margin-bottom: 50px;
 }
+
+@media screen and (max-width: 890px) {
+    .infos {
+        flex-direction: column;
+        margin-top: 90px;
+    }
+  }
+
+  @media screen and (max-width: 890px) {
+    .ContactContent {
+        margin-top: 40px;
+    }
+  }
+
+  @media screen and (max-width: 890px) {
+    .hContact {
+        width: 350px;
+        line-height: 40px;
+    }
+  }

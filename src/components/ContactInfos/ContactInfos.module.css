@@ -7,6 +7,12 @@ img {
     flex-direction: row;
 }
 
+@media screen and (max-width: 890px) {
+    .content {
+        flex-direction: column;
+    }
+  }
+
 .space {
     width: 40px;
 }
@@ -30,12 +36,30 @@ a:hover {
     flex-direction: column;
 }
 
+@media screen and (max-width: 890px) {
+    .divA {
+        margin-bottom: 40px;
+    }
+  }
+
 .divP {
     margin-top: -35px;
 }
 
+@media screen and (max-width: 890px) {
+    .divP {
+        margin-top: -10px;
+    }
+  }
+
 .divH {
     margin-top: -35px;
 }
+
+@media screen and (max-width: 890px) {
+    .divH {
+        margin-top: -10px;
+    }
+  }
 
 

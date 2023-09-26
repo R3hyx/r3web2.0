@@ -13,6 +13,12 @@
     }
   }
 
+@media screen and (max-width: 890px) {
+    .homeBody {
+        height: 100vh;
+    }
+}
+
 .HomeContent {
     display: flex;
     flex-direction: column;
@@ -21,11 +27,31 @@
     margin: 0px auto;
 }
 
+@media screen and (max-width: 890px) {
+    .HomeContent {
+        margin-left: -40px;
+        margin-right: 20px;
+    }
+}
+
 .HomeH1 {
     margin-top: -20px;
     margin-bottom: -20px;
 }
 
+@media screen and (max-width: 890px) {
+    .HomeH1 {
+        margin-top: 50px;
+        margin-bottom: 0px;
+    }
+}
+
 .HomeH2 {
     margin-bottom: 80px;
+}
+
+@media screen and (max-width: 890px) {
+    .btnDiv {
+        margin-left: 25px;
+    }
 }

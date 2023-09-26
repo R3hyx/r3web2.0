@@ -24,7 +24,7 @@ function MuiDrawer() {
         >
 
         <Box 
-          p={2} width='150px' 
+          p={2} width='200px' 
           textAlign='center' 
           role='list'
           sx={{ 

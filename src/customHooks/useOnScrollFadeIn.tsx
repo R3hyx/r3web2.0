@@ -15,7 +15,7 @@ const useOnScrollAppear = () => {
             scale: 1,
 
             transition: { 
-                duration: 0.8,
+                duration: 2.0,
                 delay: 0.5,
                 ease: [0, 0.71, 0.2, 1.01] 
             }
@@ -24,7 +24,7 @@ const useOnScrollAppear = () => {
         if(!inView){
           animation.start({
             opacity: 0, 
-            scale: 0.5,
+            scale: 0.2,
         })
         }
       }, [inView] );

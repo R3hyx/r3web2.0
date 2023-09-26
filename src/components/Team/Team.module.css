@@ -5,14 +5,46 @@
 .imageDiv {
     display: flex;
     align-items: center;
-    width: 800px;
+    justify-content: center; /* Center horizontally */
+    width: 100%; /* Change to full width */
 }
 
 .image {
     max-width: 300px;
     margin-bottom: 30px;
 }
+
 .image2 {
     max-width: 200px;
     margin-bottom: 30px;
+}
+
+@media screen and (max-width: 890px) {
+    .imageDiv {
+        display: flex;
+        align-items: center;
+        justify-content: center; /* Center horizontally */
+        width: 100%; /* Change to full width */
+    }
+}
+
+@media screen and (max-width: 500px) {
+    .imageDiv {
+        display: flex;
+        align-items: center;
+        justify-content: center; /* Center horizontally */
+        width: 100%; /* Change to full width */
+    }
+}
+
+@media screen and (max-width: 890px) {
+    .image {
+        max-width: 200px;
+    }
+}
+
+@media screen and (max-width: 890px) {
+    .image2 {
+        max-width: 0px;
+    }
 }

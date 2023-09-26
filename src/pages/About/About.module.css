@@ -8,9 +8,28 @@
 
 .h1Div {
     padding-left: 80px;
-    max-width: 1200px;
+    max-width: 1100px;
     margin: 0 auto;
 }
+
+@media screen and (max-width: 890px) {
+    .h1Div {
+        margin-left: 60px;
+        margin-right: 30px;
+        margin-top: 200px;
+        margin-bottom: 300px;
+        max-width: 500px;
+    }
+  }
+
+  @media screen and (max-width: 500px) {
+    .h1Div {
+        margin-left: -20px;
+        margin-top: 100px;
+        margin-bottom: 200px;
+        max-width: 500px;
+    }
+  }
 
 .textContainer {
     width: '100%';

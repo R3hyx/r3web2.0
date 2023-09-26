@@ -72,12 +72,18 @@ p {
 
 @media screen and (max-width: 890px) {
   h3 {
-    font-size: 15px;
+    font-size: 22px;
   }
 }
 
 @media screen and (max-width: 890px) {
   h4 {
+    font-size: 15px;
+  }
+}
+
+@media screen and (max-width: 890px) {
+  p {
     font-size: 15px;
   }
 }
