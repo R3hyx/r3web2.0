@@ -13,6 +13,12 @@
     }
   }
 
+  @media screen and (max-width: 1049px) {
+    .homeBody {
+        height: 100vh;
+    }
+  }
+
 @media screen and (max-width: 890px) {
     .homeBody {
         height: 100vh;

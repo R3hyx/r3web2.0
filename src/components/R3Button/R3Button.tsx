@@ -1,5 +1,6 @@
 import styles from './R3Button.module.css';
 import { useState } from 'react';
+import { motion } from 'framer-motion';
 
 function R3Button({ textButton, onMouseUpCallback }: { textButton: string; onMouseUpCallback?: () => void }) {
     const [isClicked, setIsClicked] = useState(false);
