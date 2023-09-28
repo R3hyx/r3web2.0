@@ -15,7 +15,7 @@ const useOnScrollAnimation = () => {
             transition: { 
               type: 'spring',
               duration: 1, 
-              delay: 0.3,
+              delay: 0.1,
               bounce: 0.3 
             }
         })

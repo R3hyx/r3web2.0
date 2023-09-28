@@ -97,7 +97,7 @@ p {
   justify-content: flex-end;
   max-width: 1200px;
   margin: 0 auto;
-  background-image: url("./assets/background/earth.svg");
+  background-image: url("./assets/background/earth.jpg");
   height: 200px;
   border-radius: 10px;
   box-shadow: 0 20px 40px 20px #3c709e;
@@ -114,18 +114,29 @@ p {
   margin: 0 auto;
 }
 
-header nav a {
+a {
   font-size: 18px;
   text-decoration: none;
   color: white;
   font-family: 'Nasalization';
   padding: 6px;
-  border-radius: 4px;
-  transition: font-size 0.3s ease;
 }
 
-header nav a:hover {
-    font-size: 20px;
+
+.aButton {
+  background-color: transparent;
+  margin: 10px 0;
+  border: none;
+  height: 30px;
+  transition: box-shadow 0.4s linear;
+  border-radius: 50px;
+}
+
+.aButton:hover {
+  background-color: transparent;
+  border: none;
+  height: 30px;
+  box-shadow: 0 0 18px 10px rgba(9, 171, 253, 0.6);
 }
 
 @media screen and (max-width: 890px) {
@@ -141,7 +152,7 @@ header nav a:hover {
 }
 
 @media screen and (max-width: 890px) {
-  header nav a {
+  a {
     font-size: 15px;
   }
 }

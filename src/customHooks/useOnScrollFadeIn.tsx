@@ -16,7 +16,7 @@ const useOnScrollAppear = () => {
 
             transition: { 
                 duration: 2.0,
-                delay: 0.5,
+                delay: 0.1,
                 ease: [0, 0.71, 0.2, 1.01] 
             }
         })

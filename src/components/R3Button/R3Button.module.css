@@ -1,4 +1,7 @@
 .r3btn{
+    display: flex;
+    justify-content: center;
+    align-items: center;
     background-color: rgba(255, 255, 255, 0.1);
     color:rgb(255, 255, 255);
     font-size: 20px;
@@ -9,20 +12,26 @@
     height: 60px;
     border-radius: 15px;
     border: 2px solid #09abfd;
-    box-shadow: 0 0 18px 18px rgba(9, 171, 253, 0.4);
-    transition: border 0.2s linear, background-color 0.2s linear, color 0.3s linear, font-size 0.4s linear, width 0.1s linear, height 0.1s linear;
+    box-shadow: 0 0 18px 15px rgba(9, 171, 253, 0.4);
+    transition: border 0.2s linear, background-color 0.2s linear, color 0.3s linear, box-shadow 0.4s linear, width 0.1s linear, height 0.1s linear;
 }
 
 .r3btn:hover {
-    font-size: 23px;
+    /* font-size: 23px; */
     border: 3px solid #09abfd;
+    box-shadow: 0 0 18px 18px rgba(9, 171, 253, 0.6);
 }
   
 .mousedown {
     background-color: rgba(0, 0, 0, 0.2);
     color: rgb(255, 255, 255);
-    width: 210px;
+    width: 230px;
     height: 55px;
+}
+
+.imageCon{
+    width: 40px;
+    margin-right: 20px;
 }
 
 @media screen and (max-width: 500px) {

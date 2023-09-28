@@ -37,16 +37,26 @@ function NavBar() {
         <header>
           { windowWidth > 800 ? (
             <nav className={navName}>
-              <NavLink className='homeImg' to="/">
-                <input className="miniLogo" type="image" alt='R3Tech digital solutions' src={miniLogo}/>
-              </NavLink>
-              <NavLink to="/about">About</NavLink>
-              <NavLink to="/contact">Contact</NavLink>
-              <NavLink to="/services">Services</NavLink>
-              <SmallR3Button/>
+                <NavLink className='homeImg' to="/">
+                    <input className="miniLogo" type="image" alt='R3Tech digital solutions' src={miniLogo}/>
+                </NavLink>
+
+                <button className="aButton">
+                    <NavLink to="/about">About</NavLink>
+                </button>
+
+                <button className="aButton">
+                    <NavLink to="/contact">Contact</NavLink>
+                </button>
+
+                <button className="aButton">
+                    <NavLink to="/services">Services</NavLink>
+                </button>
+
+              {/* <SmallR3Button/> */}
             </nav>
           ) : (
-            <nav className="home-nav">
+            <nav className='home-nav'>
                 <NavLink className='homeImg' to="/">
                     <input className="miniLogo" type="image" alt='R3Tech digital solutions' src={miniLogo}/>
                 </NavLink>

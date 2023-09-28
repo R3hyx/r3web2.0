@@ -8,12 +8,12 @@
     border-radius: 8px;
     border: 1.5px solid #09abfd;
     box-shadow: 0 0 15px 10px rgba(9, 171, 253, 0.4);
-    -webkit-transition: background-color 0.2s linear, color 0.3s linear, font-size 0.4s linear, width 0.1s linear, height 0.1s linear;
-    transition: background-color 0.2s linear, color 0.3s linear, font-size 0.4s linear, width 0.1s linear, height 0.1s linear;
+    transition: background-color 0.2s linear, color 0.3s linear, box-shadow 0.4s linear, width 0.1s linear, height 0.1s linear;
 }
 
 .r3btn:hover {
-    font-size: 16px;
+    box-shadow: 0 0 15px 13px rgba(9, 171, 253, 0.6);
+
 }
   
 .mousedown {

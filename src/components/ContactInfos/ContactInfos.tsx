@@ -16,8 +16,15 @@ function ContactInfos() {
                 </div>
 
                 <div className={styles.divA}>
-                    <a href="mailto:r3rehak@gmail.com" className='cntct'>r3rehak@gmail.com</a>
-                    <a href="tel:+420777066841" className='cntct'>+420 777 066 841</a>
+
+                    <button className="aButton">
+                        <a href="mailto:r3rehak@gmail.com" className='cntct'>r3rehak@gmail.com</a>
+                    </button>
+                
+                    <button className="aButton">
+                        <a href="tel:+420777066841" className='cntct'>+420 777 066 841</a>
+                    </button>
+
                 </div>
             </div>
 
@@ -35,8 +42,15 @@ function ContactInfos() {
                 </div>
 
                 <div className={styles.divA}>
-                    <a href="mailto:r3neubauer@gmail.com" className='cntct'>r3neubauer@gmail.com</a>
-                    <a href="tel:+420 720 206 668" className='cntct'>+420 720 206 668</a>
+
+                    <button className="aButton">
+                        <a href="mailto:r3neubauer@gmail.com" className='cntct'>r3neubauer@gmail.com</a>
+                   </button>
+
+                    <button className="aButton">
+                        <a href="tel:+420 720 206 668" className='cntct'>+420 720 206 668</a>
+                    </button>
+                
                 </div>
             </div>
         </div>

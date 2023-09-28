@@ -1,12 +1,13 @@
-import R3Button from "../R3Button/R3Button";
+import R3LinkButton from "../R3Button/R3LinkButton";
 
 function Social() {
     return (
         <div>
-            <R3Button textButton='LinkedIn' onMouseUpCallback={() => console.log('linkedin')}/>
-            <R3Button textButton='Facebook' onMouseUpCallback={() => console.log('fb')}/>
-            <R3Button textButton='Instagram' onMouseUpCallback={() => console.log('ig')}/>
-            <R3Button textButton='Web' onMouseUpCallback={() => console.log('web')}/>
+            <R3LinkButton imageSrc="in.png" textButton='R3TECH' link='https://www.linkedin.com/company/r3technologiesinfo/?viewAsMember=true'/>
+            <R3LinkButton imageSrc="ig.png" textButton='r3tech_cz' link='https://instagram.com/r3tech_cz?igshid=MzRlODBiNWFlZA=='/>
+            <R3LinkButton imageSrc="web.png" textButton='www.r3tech.cz' link=''/>
+            {/* <R3LinkButton imageSrc="fb.png" textButton='in progress' link=''/> */}
+
         </div>
     );
 }
