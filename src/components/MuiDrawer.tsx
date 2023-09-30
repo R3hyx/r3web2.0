@@ -36,11 +36,11 @@ function MuiDrawer() {
             height: '100%',
            }} 
         >
-          <NavLink style={{margin: '10px'}} to="/">Home</NavLink>
-          <NavLink style={{margin: '10px'}} to="/about">About</NavLink>
-          <NavLink style={{margin: '10px'}} to="/contact">Contact</NavLink>
-          <NavLink style={{margin: '10px 0 30px 0'}} to="/services">Services</NavLink>
-          <SmallR3Button/>
+          <NavLink style={{fontSize: '20px', margin: '50px 0 10px 0'}} to="/">Home</NavLink>
+          <NavLink style={{fontSize: '20px', margin: '10px'}} to="/about">About</NavLink>
+          <NavLink style={{fontSize: '20px', margin: '10px'}} to="/contact">Contact</NavLink>
+          <NavLink style={{fontSize: '20px', margin: '10px 0 30px 0'}} to="/services">Services</NavLink>
+          {/* <SmallR3Button/> */}
         </Box>
       </Drawer>
     </>

@@ -14,12 +14,12 @@ function Services() {
     const design = [
         'UI/UX Design',
         'Graphic Design',
-        'Brand Identity',
     ];
 
     const marketing = [
-        'Social Network Management',
+        'Social Networks',
         'Marketing Strategy',
+        'Brand Identity',
     ];
 
     return (

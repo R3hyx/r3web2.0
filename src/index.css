@@ -157,7 +157,7 @@ a {
   }
 }
 
-header nav a.active {
+a.active {
   color: #09abfd;
 }
 
