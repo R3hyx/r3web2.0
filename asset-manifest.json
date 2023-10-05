@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/static/css/main.ae12051a.css",
-    "main.js": "/static/js/main.9b2589bb.js",
+    "main.css": "/static/css/main.a2814ebd.css",
+    "main.js": "/static/js/main.89b39dbb.js",
     "static/js/787.edf71ffb.chunk.js": "/static/js/787.edf71ffb.chunk.js",
     "static/media/bgHero.png": "/static/media/bgHero.2d281e880be71d02529b.png",
     "static/media/rehak.png": "/static/media/rehak.31fdeb3d2910b1fa5c8b.png",
@@ -11,19 +11,18 @@
     "static/media/rCon.png": "/static/media/rCon.56715b290f900cc54cc0.png",
     "static/media/nCon.png": "/static/media/nCon.dd6076283b05fd7c02db.png",
     "static/media/earth.jpg": "/static/media/earth.a17803322f323f9af83f.jpg",
+    "static/media/Roboto-MediumItalic.ttf": "/static/media/Roboto-MediumItalic.82736aaa11c64709055f.ttf",
+    "static/media/Roboto-Black.ttf": "/static/media/Roboto-Black.cf56c1b149d0a5e8d7c6.ttf",
     "static/media/nasalization-rg.otf": "/static/media/nasalization-rg.4cbf2019f1f7337b2594.otf",
-    "static/media/Futura Medium Italic font.ttf": "/static/media/Futura Medium Italic font.6180d54a312d36bd0924.ttf",
     "static/media/WhiteR3.png": "/static/media/WhiteR3.1a559a8f2dfaf16ec79d.png",
-    "static/media/Futura Light Italic font.ttf": "/static/media/Futura Light Italic font.7a38f125834cd8b1f80c.ttf",
     "static/media/bckgroundblack.png": "/static/media/bckgroundblack.a1fd13ff7730f65802e6.png",
-    "static/media/couture-bld.otf": "/static/media/couture-bld.b144f2b32e00d7ec80e6.otf",
     "index.html": "/index.html",
-    "main.ae12051a.css.map": "/static/css/main.ae12051a.css.map",
-    "main.9b2589bb.js.map": "/static/js/main.9b2589bb.js.map",
+    "main.a2814ebd.css.map": "/static/css/main.a2814ebd.css.map",
+    "main.89b39dbb.js.map": "/static/js/main.89b39dbb.js.map",
     "787.edf71ffb.chunk.js.map": "/static/js/787.edf71ffb.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.ae12051a.css",
-    "static/js/main.9b2589bb.js"
+    "static/css/main.a2814ebd.css",
+    "static/js/main.89b39dbb.js"
   ]
 }
