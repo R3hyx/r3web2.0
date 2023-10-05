@@ -8,7 +8,7 @@ function ContactInfos() {
                 <img className={styles.image2} src={require('../../assets/contacts/rCon.png')} alt='Jakub Rehak Contact' />
                 
                 <div className={styles.divH}>
-                    <h4>Jakub Rehak</h4>
+                    <h4>Jakub Řehák</h4>
                 </div>
 
                 <div className={styles.divP}>

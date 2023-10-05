@@ -4,6 +4,7 @@ import miniLogo from "../assets/logo/WhiteR3.png";
 import { useLocation } from "react-router-dom";
 import { useState, useEffect } from 'react';
 import MuiDrawer from './MuiDrawer';
+import { useTranslationContext } from "../LangContext";
 
 function NavBar() {
     const [navName, setNavName] = useState<string | undefined>(undefined);
@@ -33,6 +34,26 @@ function NavBar() {
         };
     }, []);
 
+
+    const [ser, setSer] = useState('Services');
+    const [abo, setAbo] = useState('About');
+    const [con, setCon] = useState('Contact');
+
+
+    const { language } = useTranslationContext();
+
+    useEffect(() => {
+        if (language) {
+            setSer('Služby');
+            setAbo('O Nás');
+            setCon('Kontakt');
+        } else {
+            setSer('Services');
+            setAbo('About');
+            setCon('Contact');
+        }
+    }, [language]);
+
     return (
         <header>
           { windowWidth > 800 ? (
@@ -42,18 +63,20 @@ function NavBar() {
                 </NavLink>
 
                 <button className="aButton">
-                    <NavLink to="/about">About</NavLink>
+                    <NavLink to="/about">{abo}</NavLink>
                 </button>
 
                 <button className="aButton">
-                    <NavLink to="/contact">Contact</NavLink>
+                    <NavLink to="/contact">{con}</NavLink>
                 </button>
 
                 <button className="aButton">
-                    <NavLink to="/services">Services</NavLink>
+                    <NavLink to="/services">{ser}</NavLink>
                 </button>
 
-              {/* <SmallR3Button/> */}
+                <div className="smallBtn">
+                    <SmallR3Button/>
+                </div>
             </nav>
           ) : (
             <nav className='home-nav'>

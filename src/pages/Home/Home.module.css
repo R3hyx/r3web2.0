@@ -42,7 +42,7 @@
 
 .HomeH1 {
     margin-top: -20px;
-    margin-bottom: -20px;
+    margin-bottom: 0px;
 }
 
 @media screen and (max-width: 890px) {

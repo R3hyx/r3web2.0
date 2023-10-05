@@ -9,18 +9,13 @@ body {
 }
 
 @font-face {
-  font-family: 'Couture';
-  src: url('./assets/fonts/couture-bld.otf') format('opentype');
+  font-family: 'Roboto-Italic';
+  src: url('./assets/fonts/Roboto-MediumItalic.ttf') format('truetype');
 }
 
 @font-face {
-  font-family: 'Futura';
-  src: url('./assets/fonts/Futura\ Medium\ Italic\ font.ttf') format('truetype');
-}
-
-@font-face {
-  font-family: 'FuturaLight';
-  src: url('./assets/fonts/Futura\ Light\ Italic\ font.ttf') format('truetype');
+  font-family: 'Roboto-Black';
+  src: url('./assets/fonts/Roboto-Black.ttf') format('truetype');
 }
 
 @font-face {
@@ -29,19 +24,23 @@ body {
 }
 
 h1 {
-  font-family: 'Couture';
+  font-family: 'Roboto-Black';
+  text-transform: uppercase;
   font-size: 80px;
   color: white;
 }
 
 h2 {
-  font-family: 'Futura';
+  font-family: 'Roboto-Italic';
+  letter-spacing: 1.2px;
   font-size: 30px;
   color: #a1a1a1;
 }
 
 h3 {
-  font-family: 'Couture';
+  font-family: 'Roboto-Black';
+  text-transform: uppercase;
+  font-weight: bold;
   font-size: 30px;
   color: white;
 }
@@ -53,7 +52,7 @@ h4 {
 }
 
 p {
-  font-family: 'Futura';
+  font-family: 'Roboto-Italic';
   font-size: 20px;
   color: #a1a1a1;
 }
@@ -191,4 +190,8 @@ a.active {
   .homeImg {
     margin-left: 10px;
   }
+}
+
+.smallBtn {
+  margin-top: 10px;
 }
